@@ -16,6 +16,7 @@ public class browser {
 		for (int i = 0; i < url.length; i++) {
             history[i] = url[i];
             n++;
+			
         }		
 	}
 	public void Set(String url) {
@@ -31,6 +32,6 @@ public class browser {
 			System.out.println(history[i]);
 		}
 	}
-	
 }
 	
+
